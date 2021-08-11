@@ -29,4 +29,4 @@ par(xpd = NA)
 ```R
 heatmap(as.matrix(iris2), scale="none")
 ```
-![Heatmap in R](
+![Heatmap in R](https://github.com/davidenoma/thanos-hackbio/blob/main/heatmap.jpeg)
