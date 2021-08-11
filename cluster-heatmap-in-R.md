@@ -14,10 +14,10 @@ Plot a Scatter Plot Matrix which gives the combination of the column values
 ```R
 pairs(iris2, col = species_col,
       lower.panel = NULL,
-      cex.labels=2, pch=19, cex = 1.2)
+      cex.labels=2, pch=19, cex = 1.2)#Add a legend
 ```
+![clustering in R](https://github.com/davidenoma/thanos-hackbio/blob/main/clustering.jpeg)
 
-Add a legend
 ```R
 par(xpd = TRUE)
 legend(x = 0.05, y = 0.4, cex = 2,
@@ -29,3 +29,4 @@ par(xpd = NA)
 ```R
 heatmap(as.matrix(iris2), scale="none")
 ```
+![Heatmap in R](
